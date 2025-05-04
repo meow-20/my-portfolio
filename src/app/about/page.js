@@ -4,8 +4,8 @@ export default function AboutPage() {
   return (
     <>
       <Navbar />
-      <main className="w-full py-20 px-30 flex justify-between">
-        <div className="w-3/5 pt-30">
+      <main className="w-full py-10 px-30 flex justify-between">
+        <div className="w-3/5 pt-50">
           <h1 className="text-4xl font-bold mb-6">
             Hey there! I’m <strong>Bansari Panchal</strong> 😇
           </h1>
@@ -70,8 +70,12 @@ export default function AboutPage() {
             Let’s connect and create something amazing together! 💬💻
           </p>
         </div>
-        <div className="w-2/5">
-          <p>Hey</p>
+        <div className="w-2/5 pt-10 flex justify-center items-start">
+          <img
+            src="/pro-pic.png" 
+            alt="Profile Picture"
+            className="w-full object-cover shadow-lg border-b-8 border-pink-500"
+          />
         </div>
       </main>
     </>
