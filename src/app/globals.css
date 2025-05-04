@@ -5,6 +5,7 @@ body {
 }
 
 @import "tailwindcss";
+@config "../../tailwind.config.js";
 @plugin "daisyui";
 
 @plugin "daisyui/theme" {

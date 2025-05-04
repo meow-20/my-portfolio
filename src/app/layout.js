@@ -8,6 +8,9 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      <head>
+        {/* <style>{animations}</style> */}
+      </head>
       <body className="antialiased" cz-shortcut-listen="true">
         {children}
       </body>
